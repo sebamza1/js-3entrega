@@ -36,7 +36,7 @@ class Lista {
 
 const p1 = new Producto("M023", 32412, "RedDragon", "./img/productos/m01.png");
 const p2 = new Producto("M024", 42412, "BlueFalcon", "./img/productos/m02.png");
-const p3 = new Producto("M025", 52412, "GreenPhoenix", "./img/productos/mic01.png");
+const p3 = new Producto("M025", 52412, "GreenPhoenix", "./img/productos/m01.png");
 const p4 = new Producto("M026", 62412, "RedDragon", "./img/productos/t02.png");
 const p5 = new Producto("M027", 72412, "BlueFalcon", "./img/productos/a01.png");
 const p6 = new Producto("M028", 82412, "GreenPhoenix", "./img/productos/mic02.png");
