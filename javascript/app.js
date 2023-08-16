@@ -37,7 +37,7 @@ class Lista {
 class Carrito {
     constructor() {
         this.productos = [];
-        this.carritoStorage = "carrito"; // Cambia esto a tu nombre de almacenamiento correcto
+        this.carritoStorage = "carrito"; 
     }
 
     agregar(producto) {
@@ -64,7 +64,7 @@ class Carrito {
     }
 
     mostrar() {
-        const carritoStorage = "carrito"; // Asegúrate de que coincida con el nombre usado para almacenar en localStorage
+        const carritoStorage = "carrito"; 
         const productosCarrito = JSON.parse(localStorage.getItem(carritoStorage));
 
         if (!productosCarrito || productosCarrito.length === 0) {
@@ -96,7 +96,7 @@ class Carrito {
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
             cancelButtonColor: '#d33',
-            imageHeight: 50 // Define la altura de la imagen (opcional)
+            
         });
     }
 }
