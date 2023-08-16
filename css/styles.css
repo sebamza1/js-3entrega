@@ -67,13 +67,11 @@ main {
   text-align: center;
   margin: 5px;
   padding: 5px;
-  width: 400px;
+ 
 }
 
 .producto .detalle-producto{
-  margin-left: 25px;
-  margin-right: 25px;
-  padding-bottom: 10px;
+
   background-color: rgba(94, 48, 124, 0.2);
   
 }
