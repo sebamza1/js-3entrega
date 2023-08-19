@@ -38,6 +38,13 @@ header button {
   transition: all 0.50s;
   border-radius: 20px;
 }
+header button span{
+  background-color: #56219b;
+  color: azure;
+  border-radius: 35px;
+  text-align:justify;
+  padding: 0.3rem;
+}
 
 header button:hover {
   color: rgba(121, 120, 120, 0.75);
@@ -54,35 +61,39 @@ main {
 
 #contenedor {
   display: grid;
-  padding: 5px;
-  border: 1px solid #ccc;
-  text-align: center;
+  justify-content: center; /* Alinear horizontalmente al centro */
+  align-items: center; /* Alinear verticalmente al centro */
+  
+  margin-left: 10rem;
+  margin-right: 10rem;
+  
   grid-template-columns: 1fr 1fr 1fr;
-  
- 
+  column-gap: 2rem
 }
 
-.producto {
-  border: 1px solid #ccc;
+.tarjeta-producto {
+  border: 1px solid #bbb5b5;
+  border-radius: 1rem;
   text-align: center;
-  margin: 5px;
-  padding: 5px;
- 
+  margin: .5rem;
+  padding: 1rem;
 }
 
-.producto .detalle-producto{
 
+.tarjeta-producto .detalle-producto{
   background-color: rgba(125, 41, 128, 0.2);
-  
+  margin: 0.5rem;
+  border-radius: 1rem;
 }
 
-.producto img {
-  max-width: 98px;   /* Ajusta el ancho máximo deseado */
-  max-height: 95px;   /* Ajusta la altura máxima deseada */
+.tarjeta-producto img {
+  max-width: 135px;   /* Ajusta el ancho máximo deseado */
+  max-height: 135px;   /* Ajusta la altura máxima deseada */
 }
 
-.producto button {
-  margin-top: 15px;
+.tarjeta-producto button {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
   width: 50px;
   
 }
@@ -94,14 +105,15 @@ footer {
   padding: 5px;
 }
 
+
 .swal2-popup{
   background-color: rgba(73, 24, 187, 0.6);
   color: antiquewhite;
 }
 
 .swal2-popup .miniatura {
-  width: 70px;   /* Establece el ancho deseado para la miniatura */
-  height: auto;   /* Ajusta la altura de forma automática */
+  width: 3rem;   /* Establece el ancho deseado para la miniatura */
+  height: 3rem;   /* Ajusta la altura de forma automática */
 
 }
 
@@ -109,8 +121,9 @@ footer {
   border: #460485 solid 1px;
   border-radius: 25px;
   padding-bottom: 10px;
-  column-span: 10px;
-  margin-bottom: 10px;
+
+  margin-bottom: 5px;
   background-color: rgba(255, 255, 255, 0.1);
   color: antiquewhite;
+
 }
